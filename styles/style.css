@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home-img{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    z-index: 1;
+    height: 30px;
+}
+
+.shape-img{
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+    height: 15px;
+}
+
+.wrapper{
+    height: 100vh;
+    display: inline-flex;
+    transform: translateX(0);
+    will-change: transform;
+    transition: transform 0.3s ease-out;
+}
+
+

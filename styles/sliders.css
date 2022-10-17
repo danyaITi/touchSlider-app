@@ -1,0 +1,119 @@
+.slider{
+    max-height:  100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.slider-btn{
+    position: absolute;
+    bottom: 4%;
+    right: 15%;
+    height: 80px;
+}
+
+.slider-1{
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 100px;
+}
+
+.slider-content{
+    position: relative;
+}
+
+.title-small{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 20px;
+}
+
+.slider-1 .title{
+    font-size: 114px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    line-height: 1;
+}
+
+
+.slider-2{
+    background-image: url('../img/bg-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+}
+
+.slider-content__start{
+    margin-left: 60px;
+}
+
+
+.text{
+    margin-top: 30px;
+    overflow-y: scroll;
+    direction:rtl;
+    width: 750px;
+    height: 360px;
+}
+
+.text::-webkit-scrollbar {
+    background-color: black;
+    border-radius: 50px;
+    width: 5px;
+}
+
+
+.text::-webkit-scrollbar-thumb{
+    background-color: palevioletred;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(56, 59, 62, 0.2) inset;
+}
+
+
+.text p{
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);;
+    padding: 20px 30px;
+    margin-left: 40px;
+    border-radius: 50px;
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    text-align: left;
+}
+
+
+
+.slider-3{
+    background-image: url('../img/bg-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.openModal{
+    background-image: url('../img/pop_up.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+
+.slider-3 .main-img{
+    height: 600px;
+}
+
+.slider-3 .slider-btn{
+    height: 70px;
+    bottom: 18%;
+    right: 8%;
+}
+
